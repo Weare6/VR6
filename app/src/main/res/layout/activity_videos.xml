@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotosActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="55dp"
+        app:srcCompat="@drawable/samplevideo" />
+
+    <ImageView
+        android:id="@+id/paris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sample"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="55dp"
+        app:srcCompat="@drawable/latertemp" />
+
+    <ImageView
+        android:id="@+id/pyramids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paris"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="55dp"
+        app:srcCompat="@drawable/latertemp" />
+
+    <ImageView
+        android:id="@+id/tokyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pyramids"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="55dp"
+        app:srcCompat="@drawable/latertemp" />
+
+    <ImageView
+        android:id="@+id/liberty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tokyo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="55dp"
+        app:srcCompat="@drawable/latertemp" />
+</RelativeLayout>

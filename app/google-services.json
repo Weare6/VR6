@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "22878697890",
+    "firebase_url": "https://mainvr.firebaseio.com",
+    "project_id": "mainvr",
+    "storage_bucket": "mainvr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22878697890:android:c9d30a986f277a70391afb",
+        "android_client_info": {
+          "package_name": "com.rohheat.mainvr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22878697890-ugrnhb8qufr55fngp11kjjgbibdga31c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxprAtW3J_Ed9km27FxjAk9IqNdMVa0TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22878697890-ugrnhb8qufr55fngp11kjjgbibdga31c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
